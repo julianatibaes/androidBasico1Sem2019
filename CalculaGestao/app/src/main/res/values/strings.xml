@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calcula Gestação</string>
+    <string name="tgTipoConta">Insira a quantidade de meses</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="tipoContaSemanas">Insira a quantidade de semanas</string>
+
+</resources>
