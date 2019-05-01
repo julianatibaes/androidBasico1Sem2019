@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cálculo Trabalhista</string>
+    <string name="fgts">FGTS</string>
+    <string name="fac">FAC</string>
+    <string name="salarioBruto">Salário Bruto</string>
+    <string name="fechar">X</string>
+    <string name="mesesTrabalhados">Meses trabalhados</string>
+    <string name="calcular">Calcular</string>
+    <string name="fonte">Fonte</string>
+    <string name="descricaoSacImg">Imagem de uma cabeça com fone de ouvido representando SAC</string>
+</resources>
