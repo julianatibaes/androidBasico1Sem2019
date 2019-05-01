@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Itens de UI</string>
+    <string name="mulher">Mulher</string>
+    <string name="homem">Homem</string>
+    <string name="genero">Gênero</string>
+    <string name="ligado">Ligado</string>
+    <string name="desligado">Desligado</string>
+    <string name="butons">Botões</string>
+    <string name="widgets">Widgets</string>
+    <string name="entendi">Entendi</string>
+    <string name="nEntedi">Não Entendi</string>
+</resources>

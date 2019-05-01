@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+    <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/sLigado" android:textOn="@string/ligado"
+            android:textOff="@string/desligado" android:text="@string/ligado" android:checked="true"
+            android:drawableStart="@android:drawable/btn_star_big_on"
+    />
+    <ToggleButton
+            android:text="@string/genero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tbGenero"
+            android:textOff="@string/mulher"
+            android:textOn="@string/homem"/>
+    <CheckBox
+            android:text="@string/butons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/cbButtons"/>
+    <CheckBox
+            android:text="@string/widgets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/cbWidgets"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar" android:max="@integer/numEstrelas"
+            android:progress="@integer/numEstrelasMin"/>
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/rgEntendimento">
+        <RadioButton
+                android:text="@string/entendi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rbEntendi" android:layout_weight="1"
+        />
+        <RadioButton
+                android:text="@string/nEntedi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rbNaoEntendi" android:layout_weight="1"/>
+    </RadioGroup>
+    <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/sbAlteraProgressBar"
+            android:max="@integer/numEstrelas"
+            android:progress="@integer/numEstrelasMin"/>
+    <SeekBar
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="@integer/numEstrelas"
+            android:progress="@integer/numEstrelasMin"
+            android:id="@+id/sbAlteraRatinbBar"/>
+    <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/ratingBar" android:numStars="@integer/numEstrelas"
+            android:rating="@integer/numEstrelasMin" android:layout_gravity="center"
+            android:max="@integer/numEstrelas" android:visibility="visible" android:stepSize="@integer/um"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/ic_positivo" android:id="@+id/imgPositivo"/>
+</LinearLayout>
